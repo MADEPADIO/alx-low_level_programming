@@ -14,15 +14,15 @@ int main(void)
 	a = 97;
 	b = 65;
 
-	while (b < 123)
+	while (a < 123)
 	{
 		putchar(b);
-		b++;
+		a++;
 	}
-	while (a < 91)
+	while (b < 91)
 	{
 		putchar(a);
-		a++;
+		b++;
 	}
 	putchar('\n');
 	return (0);
