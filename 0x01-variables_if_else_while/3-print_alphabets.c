@@ -16,12 +16,12 @@ int main(void)
 
 	while (a < 123)
 	{
-		putchar(b);
+		putchar(a);
 		a++;
 	}
 	while (b < 91)
 	{
-		putchar(a);
+		putchar(b);
 		b++;
 	}
 	putchar('\n');
