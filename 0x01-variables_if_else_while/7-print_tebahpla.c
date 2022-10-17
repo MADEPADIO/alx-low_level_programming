@@ -2,21 +2,19 @@
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (success)
  *
  */
 
 int main(void)
 {
-	int n = 0;
+	int n = 122;
 
-	while (n < 10)
+	while (n < 96)
 	{
-		putchar(n + '0');
-		n++;
+		putchar(n);
+		n--;
 	}
 	putchar('\n');
 	return (0);
 }
-

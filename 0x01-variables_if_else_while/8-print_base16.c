@@ -9,14 +9,18 @@
 
 int main(void)
 {
-	int n = 0;
+	int a;
+	int b;
 
-	while (n < 10)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(n + '0');
-		n++;
+		putchar(a + '0');
+	}
+
+	for (b = 97; b < 103; b++)
+	{
+		putchar(b);
 	}
 	putchar('\n');
 	return (0);
 }
-

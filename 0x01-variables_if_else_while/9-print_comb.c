@@ -9,12 +9,16 @@
 
 int main(void)
 {
-	int n = 0;
+	int a;
 
-	while (n < 10)
+	a = 0;
+
+	while (a < 10)
 	{
-		putchar(n + '0');
-		n++;
+		putchar(a + '0');
+		putchar(',');
+		putchar(' ');
+		a++;
 	}
 	putchar('\n');
 	return (0);
