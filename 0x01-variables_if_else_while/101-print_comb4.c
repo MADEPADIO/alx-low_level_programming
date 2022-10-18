@@ -21,7 +21,7 @@ int main(void)
 		{
 			putchar(b + '0');
 			putchar(c + '0');
-			if (a < 700);
+			if (a < 700)
 			{
 				putchar(44);
 				putchar(32);
