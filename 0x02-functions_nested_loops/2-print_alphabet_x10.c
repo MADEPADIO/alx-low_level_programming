@@ -14,7 +14,7 @@ int b;
 
 a = 0;
 
-while (a < 11)
+while (a < 10)
 {
 	b = 97;
 
