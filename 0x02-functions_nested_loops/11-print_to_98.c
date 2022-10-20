@@ -5,7 +5,7 @@
  *
  * @n: takes an integer input
  *
- * Return: Always 0 (success)
+ *
  */
 
 void print_to_98(int n)
@@ -21,5 +21,5 @@ void print_to_98(int n)
 		_putchar(n + '0');
 		n++;
 	} while (n < 99);
-	return (0);
+
 }
