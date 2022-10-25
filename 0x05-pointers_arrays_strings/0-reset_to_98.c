@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - a function that reset the value of a pointer to 98
  *
- * @*n: input for pointer
+ * @n: input for pointer
  *
  */
 
