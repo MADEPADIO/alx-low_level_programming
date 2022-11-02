@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * _puts_recursion - a function that prints a string followed by a new line
+ *
+ * _print_rev_recursion - a function that print a string in reverse
  *
  * @s: string input
  *
  * Return: Void
  */
 
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
 		_putchar('\n');
 		return;
-
 	}
+	_print_rev_recursion(s + 1);
 	_putchar(*s);
-	s++;
 }
-
