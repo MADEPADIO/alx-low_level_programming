@@ -2,6 +2,8 @@
 
 #include <stdio.h>
 
+#include <stdarg.h>
+
 /**
  * print_numbers - print each numbers with seaprator followed by new line
  *
