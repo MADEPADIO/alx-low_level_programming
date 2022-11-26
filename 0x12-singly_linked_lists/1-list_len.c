@@ -1,7 +1,4 @@
 #include "lists.h"
-
-#include <stddef.h>
-
 #include <stdlib.h>
 
 /**
@@ -14,12 +11,14 @@
  */
 
 size_t list_len(const list_t *h)
-
 {
-	int i;
+	size_t n = 0;
 
-	for (i = 0; h; i++)
+	while (h)
+	{
+		n++;
 		h = h->next;
-	return (i);
+	}
+	return (n);
 }
 
