@@ -14,18 +14,12 @@ int print_last_digit(int n)
 
 	if (n >= 0)
 	{
-
 		result = n % 10;
-		return (result);
-	} else if (n < 0)
+	}
+	else if (n < 0)
 	{
-
-
 		n = n + -n + -n;
 		result = n % 10;
-
-		return (result);
 	}
 	return (result);
-
 }
