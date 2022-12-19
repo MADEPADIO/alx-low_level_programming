@@ -15,12 +15,12 @@ int _abs(int n)
 	{
 		return (n);
 
-	} else
+	}
+	else
 	{
-
-
 		result  = n + -n + -n;
 		return (result);
+	}
 
 }
 
